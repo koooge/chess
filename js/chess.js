@@ -1,1 +1,4 @@
-var board = Chessboard('board', 'start');
+var board = Chessboard('board', {
+  draggable: true,
+  position: 'start',
+});
